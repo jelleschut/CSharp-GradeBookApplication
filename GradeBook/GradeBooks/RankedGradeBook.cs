@@ -19,7 +19,7 @@ namespace GradeBook.GradeBooks
             
             if(Students.Count < 5)
             {
-                throw new InvalidOperationException();
+                throw new InvalidOperationException("five student minimum");
             }
 
             foreach(Student s in Students)
